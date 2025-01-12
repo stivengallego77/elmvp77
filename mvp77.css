@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    color: rgb(77, 77, 77);
+    background-color: rgb(255, 255, 255);
+}
+/* Estilo encabezado*/
+header{
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+header .logo img {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    margin-top: 10px;
+}
+nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+nav ul li a:hover {
+    color: #ff9900;
+}
+
+/* Biografia*/
+
+#biografia {
+    padding: 30px;
+    text-align: center;
+    background-color: #fff;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#biografia img{
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/*Discografia*/
+#discografia {
+    padding: 30px;
+    background-color: #ececec;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#discografia table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#discografia th, #discografia td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+#discografia th {
+    background-color: #333;
+    color: white;
+}
+
+#discografia td a {
+    color: #ff9900;
+    text-decoration: none;
+}
+
+#discografia td a:hover {
+    text-decoration: underline;
+}
+
+/*Contacto*/
+
+#contacto {
+    padding: 30px;
+    background-color: #eaeaea;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#contacto ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#contacto ul li {
+    margin: 10px 0;
+}
+
+#contacto a {
+    color: #ff9900;
+    text-decoration: none;
+}
+
+#contacto a:hover {
+    text-decoration: underline;
+}
+
+.contenedor-secciones {
+    display: flex;
+   gap: 5px; /* Espacio entre las secciones */
+}
+
+/*formulario*/
+
+#Formulario {
+    background-color: #e2e2e2;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex: 1; 
+    padding: 20px;
+}
+
+#Formulario form {
+    display: flex;
+    flex-direction: column;
+}
+
+#Formulario label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+#Formulario input[type="text"], #Formulario input[type="email"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#Formulario input[type="submit"] {
+    background-color: #ff9900;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+#Formulario input[type="submit"]:hover {
+    background-color: #e68a00;
+}
+
+/*Ultimo Lanzamiento*/
+
+.ultimo-lanzamiento-aside{
+    padding: 20px;
+    background-color: #e4e4e4;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);   
+}
+
+.ultimo-lanzamiento-aside h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.ultimo-lanzamiento-aside h4 {
+    font-size: 1.5rem;
+}
+
+.ultimo-lanzamiento-aside a {
+    color: #ff9900;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.ultimo-lanzamiento-aside a:hover {
+    text-decoration: underline;
+}
+
+.ultimo-lanzamiento-aside .imagen-lanzamiento img {
+    border-radius: 8px;
+    margin-top: 15px;
+    width: 300;
+}
